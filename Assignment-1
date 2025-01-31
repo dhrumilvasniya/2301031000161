@@ -1,1 +1,109 @@
-# 2301031000161
+Figma Assignment_1 
+Name:Vasniya Dhrumil Kanubhai
+Enrollment No:2301031000161
+DIvision:B3
+
+Task-1  points and steps to create and setup github
+
+Let's break down how to create and set up a GitHub account and start using it.
+
+I. Creating a GitHub Account:
+
+1.  Go to GitHub: Open your web browser and navigate to [github.com](https://www.google.com/url?sa=E&source=gmail&q=github.com).
+
+2.  Sign Up: Click the "Sign up" button (usually green and prominent).
+
+3.  Choose a Plan:  For most individuals and many small teams, the free plan is sufficient. It offers public repositories (code visible to everyone) and a good amount of private repository storage.  If you need more advanced features like increased private storage or advanced access controls, you can explore paid plans later.
+
+4.  Enter Details:
+
+      * Username: Choose a unique and memorable username. This will be part of your GitHub profile URL.
+      * Email Address: Provide a valid email address. GitHub will use this for notifications and account recovery.
+      * Password: Create a strong and secure password. Use a combination of uppercase and lowercase letters, numbers, and symbols.  A password manager is highly recommended.
+
+5.  Verify Your Account: GitHub will likely send a verification email to the address you provided. Click the link in the email to verify your account.
+
+6.  Complete Your Profile (Optional but Recommended):  Once logged in, click on your profile picture (or the placeholder icon) in the top right corner and select "Settings." Here you can:
+
+      * Add a Profile Picture (Avatar): This helps others recognize you on GitHub.
+      * Add a Bio: Briefly describe yourself, your skills, or your interests.
+      * Add Your Name:  Your real name (or preferred name) helps with identification.
+      * Add a Location:  (Optional)
+      * Link Other Accounts: You can connect your GitHub profile to other online accounts (e.g., Twitter, LinkedIn).
+
+II. Setting Up Git on Your Local Machine (Essential):
+
+GitHub uses Git, a version control system. You need to install Git on your computer to interact with GitHub repositories.
+
+1.  Download Git:Go to [git-scm.com](https://www.google.com/url?sa=E&source=gmail&q=git-scm.com) and download the appropriate version for your operating system (Windows, macOS, or Linux).
+
+2.  Install Git: Follow the installation instructions for your operating system.  On most systems, the default options are fine.
+
+3.  Configure Git: Open a terminal or command prompt.  You need to configure Git with your name and email address. This information will be associated with your commits (changes to the code).
+
+
+    Replace `"Your Name"` and `"your.email@example.com"` with your actual name and the email address you used for your GitHub account.
+
+II. Basic GitHub Workflow:
+
+Here's a simplified overview of how to use GitHub for a typical project:
+
+1.  Create a Repository on GitHub:
+
+      * Log in to GitHub.
+      * Click the "+" button in the top right corner and select "New repository."
+      * Give your repository a name.
+      * Choose whether it should be public or private (public is the default for free accounts).
+      * You can optionally add a description.
+      * Click "Create repository."
+
+2.  Clone the Repository to Your Local Machine:
+
+      * On the repository page on GitHub, you'll see a URL (either HTTPS or SSH). Copy this URL.
+      * In your terminal, navigate to the directory where you want to store the project.
+      * Use the `git clone` command:
+        ```bash
+        git clone <repository_url>
+        ```
+        Replace `<repository_url>` with the URL you copied.
+
+3.  Make Changes to the Code:
+
+      * Open the project files in your code editor.
+      * Make the necessary changes.
+
+4.  Stage Your Changes:
+
+      * In your terminal, navigate to the project directory.
+      * Use the `git add` command to stage the changes you want to commit:
+        ```bash
+        git add .  # Adds all changes (use with caution)
+        git add <file_name> # Adds a specific file
+        ```
+
+5.  Commit Your Changes:
+
+      * Use the `git commit` command to create a commit.  A commit is like a snapshot of your changes.  Always include a clear and concise commit message.
+        ```bash
+        git commit -m "Descriptive commit message"
+        ```
+
+6.  Push Your Changes to GitHub:
+
+      * Use the `git push` command to upload your commits to the GitHub repository.
+        ```bash
+        git push origin main  # 'main' is the typical branch name
+        ```
+
+IV.  Key Git Commands (Beginner-Friendly):
+
+  * `git clone <url>`: Copies a repository from GitHub to your local machine.
+  * `git add <file>`: Stages changes for a commit.
+  * `git commit -m "message"`: Creates a commit with a message.
+  * `git push origin <branch>`: Uploads commits to a remote repository (GitHub).
+  * `git pull origin <branch>`: Downloads changes from a remote repository to your local machine.
+  * `git status`: Shows the status of your files and changes.
+  * `git log`: Shows the commit history.
+
+This covers the essentials of creating a GitHub account and getting started with Git.  There's much more to learn about Git and GitHub, like branching, merging, pull requests, and collaboration. 
+But this foundation will allow you to start version controlling your code and sharing it with others.  Don't hesitate to ask further questions as you progress\!
